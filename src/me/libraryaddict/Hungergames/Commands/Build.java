@@ -1,9 +1,9 @@
 package me.libraryaddict.Hungergames.Commands;
 
-import me.libraryaddict.Hungergames.Managers.TranslationManager;
 import me.libraryaddict.Hungergames.Managers.PlayerManager;
-import me.libraryaddict.Hungergames.Types.HungergamesApi;
+import me.libraryaddict.Hungergames.Managers.TranslationManager;
 import me.libraryaddict.Hungergames.Types.Gamer;
+import me.libraryaddict.Hungergames.Types.HungergamesApi;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

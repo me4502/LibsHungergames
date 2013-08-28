@@ -1,5 +1,9 @@
 package me.libraryaddict.Hungergames.Abilities;
 
+import me.libraryaddict.Hungergames.Interfaces.Disableable;
+import me.libraryaddict.Hungergames.Types.AbilityListener;
+import me.libraryaddict.Hungergames.Types.HungergamesApi;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.Sound;
@@ -7,10 +11,6 @@ import org.bukkit.entity.Item;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
-
-import me.libraryaddict.Hungergames.Interfaces.Disableable;
-import me.libraryaddict.Hungergames.Types.AbilityListener;
-import me.libraryaddict.Hungergames.Types.HungergamesApi;
 
 public class libraryaddict extends AbilityListener implements Disableable {
     private static int i = 0;

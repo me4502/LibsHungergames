@@ -3,7 +3,20 @@ package me.libraryaddict.Hungergames.Types;
 import me.libraryaddict.Hungergames.Hungergames;
 import me.libraryaddict.Hungergames.Interfaces.ChestManager;
 import me.libraryaddict.Hungergames.Interfaces.FeastManager;
-import me.libraryaddict.Hungergames.Managers.*;
+import me.libraryaddict.Hungergames.Managers.AbilityConfigManager;
+import me.libraryaddict.Hungergames.Managers.AbilityManager;
+import me.libraryaddict.Hungergames.Managers.ChatManager;
+import me.libraryaddict.Hungergames.Managers.CommandManager;
+import me.libraryaddict.Hungergames.Managers.ConfigManager;
+import me.libraryaddict.Hungergames.Managers.InventoryManager;
+import me.libraryaddict.Hungergames.Managers.KitManager;
+import me.libraryaddict.Hungergames.Managers.LibsChestManager;
+import me.libraryaddict.Hungergames.Managers.LibsFeastManager;
+import me.libraryaddict.Hungergames.Managers.MySqlManager;
+import me.libraryaddict.Hungergames.Managers.NameManager;
+import me.libraryaddict.Hungergames.Managers.PlayerManager;
+import me.libraryaddict.Hungergames.Managers.ReflectionManager;
+import me.libraryaddict.Hungergames.Managers.TranslationManager;
 
 public class HungergamesApi {
     private static AbilityConfigManager abilityConfigManager;

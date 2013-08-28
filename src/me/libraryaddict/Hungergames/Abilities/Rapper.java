@@ -1,5 +1,9 @@
 package me.libraryaddict.Hungergames.Abilities;
 
+import me.libraryaddict.Hungergames.Interfaces.Disableable;
+import me.libraryaddict.Hungergames.Types.AbilityListener;
+import me.libraryaddict.Hungergames.Types.HungergamesApi;
+
 import org.bukkit.Material;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
@@ -9,10 +13,6 @@ import org.bukkit.event.block.Action;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
-
-import me.libraryaddict.Hungergames.Interfaces.Disableable;
-import me.libraryaddict.Hungergames.Types.AbilityListener;
-import me.libraryaddict.Hungergames.Types.HungergamesApi;
 
 public class Rapper extends AbilityListener implements Disableable {
     public int hearingRange = 16;

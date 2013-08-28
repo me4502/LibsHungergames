@@ -3,9 +3,9 @@ package me.libraryaddict.Hungergames.Commands;
 import java.util.ArrayList;
 import java.util.Collections;
 
+import me.libraryaddict.Hungergames.Managers.KitManager;
 import me.libraryaddict.Hungergames.Managers.NameManager;
 import me.libraryaddict.Hungergames.Managers.TranslationManager;
-import me.libraryaddict.Hungergames.Managers.KitManager;
 import me.libraryaddict.Hungergames.Types.HungergamesApi;
 import me.libraryaddict.Hungergames.Types.Kit;
 

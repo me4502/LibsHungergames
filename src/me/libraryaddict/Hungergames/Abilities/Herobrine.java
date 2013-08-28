@@ -2,6 +2,12 @@ package me.libraryaddict.Hungergames.Abilities;
 
 import java.util.HashMap;
 
+import me.libraryaddict.Hungergames.Events.PlayerKilledEvent;
+import me.libraryaddict.Hungergames.Interfaces.Disableable;
+import me.libraryaddict.Hungergames.Types.AbilityListener;
+import me.libraryaddict.Hungergames.Types.Gamer;
+import me.libraryaddict.Hungergames.Types.HungergamesApi;
+
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
@@ -14,12 +20,6 @@ import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
-
-import me.libraryaddict.Hungergames.Events.PlayerKilledEvent;
-import me.libraryaddict.Hungergames.Interfaces.Disableable;
-import me.libraryaddict.Hungergames.Types.AbilityListener;
-import me.libraryaddict.Hungergames.Types.Gamer;
-import me.libraryaddict.Hungergames.Types.HungergamesApi;
 
 public class Herobrine extends AbilityListener implements Disableable {
     private transient HashMap<Player, Long> cooldown = new HashMap<Player, Long>();

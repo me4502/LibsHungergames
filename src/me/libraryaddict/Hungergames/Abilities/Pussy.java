@@ -2,19 +2,19 @@ package me.libraryaddict.Hungergames.Abilities;
 
 import java.util.HashMap;
 
+import me.libraryaddict.Hungergames.Events.PlayerKilledEvent;
+import me.libraryaddict.Hungergames.Interfaces.Disableable;
 import me.libraryaddict.Hungergames.Types.AbilityListener;
+import me.libraryaddict.Hungergames.Types.HungergamesApi;
+import me.libraryaddict.disguise.DisguiseAPI;
+import me.libraryaddict.disguise.DisguiseTypes.DisguiseType;
+import me.libraryaddict.disguise.DisguiseTypes.MobDisguise;
+
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.player.PlayerToggleSprintEvent;
-
-import me.libraryaddict.Hungergames.Events.PlayerKilledEvent;
-import me.libraryaddict.Hungergames.Interfaces.Disableable;
-import me.libraryaddict.Hungergames.Types.HungergamesApi;
-import me.libraryaddict.disguise.DisguiseAPI;
-import me.libraryaddict.disguise.DisguiseTypes.DisguiseType;
-import me.libraryaddict.disguise.DisguiseTypes.MobDisguise;
 
 public class Pussy extends AbilityListener implements Disableable {
     private transient HashMap<Player, Integer> pussys = new HashMap<Player, Integer>();

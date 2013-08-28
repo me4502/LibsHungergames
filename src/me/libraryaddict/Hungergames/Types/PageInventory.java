@@ -2,7 +2,9 @@ package me.libraryaddict.Hungergames.Types;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+
 import me.libraryaddict.Hungergames.Hungergames;
+
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;

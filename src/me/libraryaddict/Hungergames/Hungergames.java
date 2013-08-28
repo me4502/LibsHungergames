@@ -16,9 +16,14 @@ import me.libraryaddict.Hungergames.Events.ServerShutdownEvent;
 import me.libraryaddict.Hungergames.Events.TimeSecondEvent;
 import me.libraryaddict.Hungergames.Listeners.GeneralListener;
 import me.libraryaddict.Hungergames.Listeners.PlayerListener;
-import me.libraryaddict.Hungergames.Managers.*;
-import me.libraryaddict.Hungergames.Types.HungergamesApi;
+import me.libraryaddict.Hungergames.Managers.ConfigManager;
+import me.libraryaddict.Hungergames.Managers.LibsFeastManager;
+import me.libraryaddict.Hungergames.Managers.MySqlManager;
+import me.libraryaddict.Hungergames.Managers.PlayerManager;
+import me.libraryaddict.Hungergames.Managers.ScoreboardManager;
+import me.libraryaddict.Hungergames.Managers.TranslationManager;
 import me.libraryaddict.Hungergames.Types.Gamer;
+import me.libraryaddict.Hungergames.Types.HungergamesApi;
 import me.libraryaddict.Hungergames.Types.Kit;
 import me.libraryaddict.Hungergames.Utilities.MapLoader;
 

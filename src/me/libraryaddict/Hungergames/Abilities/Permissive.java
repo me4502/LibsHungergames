@@ -2,16 +2,16 @@ package me.libraryaddict.Hungergames.Abilities;
 
 import java.util.HashMap;
 
-import org.bukkit.entity.Player;
-import org.bukkit.event.EventHandler;
-import org.bukkit.permissions.PermissionAttachment;
-
 import me.libraryaddict.Hungergames.Events.GameStartEvent;
 import me.libraryaddict.Hungergames.Events.PlayerKilledEvent;
 import me.libraryaddict.Hungergames.Interfaces.Disableable;
 import me.libraryaddict.Hungergames.Types.AbilityListener;
 import me.libraryaddict.Hungergames.Types.HungergamesApi;
 import me.libraryaddict.Hungergames.Types.Kit;
+
+import org.bukkit.entity.Player;
+import org.bukkit.event.EventHandler;
+import org.bukkit.permissions.PermissionAttachment;
 
 public class Permissive extends AbilityListener implements Disableable {
     private HashMap<Player, PermissionAttachment> attachments = new HashMap<Player, PermissionAttachment>();

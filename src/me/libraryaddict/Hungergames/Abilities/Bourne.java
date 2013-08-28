@@ -2,11 +2,11 @@ package me.libraryaddict.Hungergames.Abilities;
 
 import java.util.Random;
 
-import org.bukkit.event.EventHandler;
-
 import me.libraryaddict.Hungergames.Events.PlayerTrackEvent;
 import me.libraryaddict.Hungergames.Interfaces.Disableable;
 import me.libraryaddict.Hungergames.Types.AbilityListener;
+
+import org.bukkit.event.EventHandler;
 
 public class Bourne extends AbilityListener implements Disableable {
     public int bourneRange = 15;

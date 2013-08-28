@@ -7,6 +7,12 @@ import java.util.List;
 import java.util.Random;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
+import me.libraryaddict.Hungergames.Hungergames;
+import me.libraryaddict.Hungergames.Events.PlayerKilledEvent;
+import me.libraryaddict.Hungergames.Types.Damage;
+import me.libraryaddict.Hungergames.Types.Gamer;
+import me.libraryaddict.Hungergames.Types.HungergamesApi;
+
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.Location;
@@ -25,12 +31,6 @@ import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.bukkit.scoreboard.DisplaySlot;
 import org.bukkit.util.Vector;
-
-import me.libraryaddict.Hungergames.Hungergames;
-import me.libraryaddict.Hungergames.Events.PlayerKilledEvent;
-import me.libraryaddict.Hungergames.Types.Damage;
-import me.libraryaddict.Hungergames.Types.HungergamesApi;
-import me.libraryaddict.Hungergames.Types.Gamer;
 
 public class PlayerManager {
 

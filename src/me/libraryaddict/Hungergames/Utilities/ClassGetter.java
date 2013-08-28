@@ -1,7 +1,5 @@
 package me.libraryaddict.Hungergames.Utilities;
 
-import org.bukkit.plugin.java.JavaPlugin;
-
 import java.io.IOException;
 import java.net.URL;
 import java.security.CodeSource;
@@ -9,6 +7,8 @@ import java.util.ArrayList;
 import java.util.Enumeration;
 import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
+
+import org.bukkit.plugin.java.JavaPlugin;
 
 /**
  * User: Austin Date: 4/22/13 Time: 11:47 PM (c) lazertester

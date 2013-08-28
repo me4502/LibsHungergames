@@ -1,6 +1,7 @@
 package me.libraryaddict.Hungergames.Types;
 
 import java.util.HashSet;
+
 import me.libraryaddict.Hungergames.Hungergames;
 
 import org.bukkit.Bukkit;

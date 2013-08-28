@@ -2,14 +2,14 @@ package me.libraryaddict.Hungergames.Abilities;
 
 import java.util.Random;
 
+import me.libraryaddict.Hungergames.Interfaces.Disableable;
+import me.libraryaddict.Hungergames.Types.AbilityListener;
+
 import org.bukkit.Material;
 import org.bukkit.entity.EntityType;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.entity.EntityDeathEvent;
 import org.bukkit.inventory.ItemStack;
-
-import me.libraryaddict.Hungergames.Interfaces.Disableable;
-import me.libraryaddict.Hungergames.Types.AbilityListener;
 
 public class Bombtastic extends AbilityListener implements Disableable {
     public int maxTntDrop = 3;

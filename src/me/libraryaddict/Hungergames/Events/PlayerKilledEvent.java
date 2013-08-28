@@ -3,8 +3,8 @@ package me.libraryaddict.Hungergames.Events;
 import java.util.List;
 
 import me.libraryaddict.Hungergames.Managers.PlayerManager;
-import me.libraryaddict.Hungergames.Types.HungergamesApi;
 import me.libraryaddict.Hungergames.Types.Gamer;
+import me.libraryaddict.Hungergames.Types.HungergamesApi;
 
 import org.bukkit.Location;
 import org.bukkit.entity.Entity;
